@@ -1,62 +1,84 @@
 
 body {
+    margin: 0;
+    font-family: montserrat;
+    height: 100vh;
     color: black;
     background: linear-gradient(to right, #578bad, #166ba3);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 } 
-.profile-pic {
+.name-logo{
+    margin-left: 20px;
+}
+.menu-wrap{
+    margin: 0px auto;
+}
+ul{
+    list-style-type: none;
     display: flex;
     justify-content: center;
-    margin: 5px;
-    width: 130px;
-    background: rgb(8, 70, 21);
-    padding: 5px;
-    border: 2px solid #222222;
-    border-radius: 50px;
+    padding: 0;
 }
-.name-title {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 180px;
-    margin: 5px;
-    padding: 5px;
+.nav-item{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 15px;
+    letter-spacing: 2px;
 }
-.card {
-    width: 400px;
-    height: 225px;
-    background: linear-gradient(to right, #578bad, #3e89bb);
-    border-radius: 5px;
-    box-shadow: 0px 0px 2px black;
-    padding: 10px;
-    display: flex;
-    justify-content: space-around;
-    margin: 0 auto 0 auto;
+li:hover {
+    transform: scale(1.1);
 }
-button {
-    border: 0 solid black;
-    background: linear-gradient(to right, #e7dccc, #ece6dd );
-    margin: 10px 10px 0px 10px;
-    font-weight: bold;
-    font-size: 15px;
-    padding: 6px 17px 5px 17px;
-    color: #0f1419;
-    border-radius: 12px;
-}
-button:hover {
-    transform: scale(1.05);
-}
-.content {
+.content{
+    margin-top: 225px;
+    /* margin-bottom: 500px; */
     text-align: center;
+    
 }
-#projects-space {
+p{
+    margin: 0;
+    font-size: 25px;
+}
+.name{
+    margin: 0;
+    font-size: 100px;
+}
+.tool-box{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-#project-container {
+.spec-container{
+    display: flex;
+}
+.software-spec, .full-stack-spec{
+    border: 1px solid black;
+    margin-right: 20px;
+    margin-left: 20px;
+    height: 200px;
+    width: 400px;
+    padding: 10px;
+}
+
+
+
+
+
+
+.tool-icon{
+    width: 65px;
+    overflow: hidden;
+}
+.tool-icon:hover{
+    transform: scale(1.1);
+}
+
+.projects-space {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.project-container {
     display: flex;
     justify-content: space-between;
 }
