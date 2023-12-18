@@ -71,7 +71,7 @@ p{
     font-size: 100px;
     text-shadow: 1px 1px 4px black;
 }
-.tool-box{
+.specializations{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -88,19 +88,51 @@ p{
     padding: 10px;
     box-shadow: 1px 1px 3px;
 }
-
-
-
-
-
-
+.tool-box{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .tool-icon{
-    width: 65px;
-    overflow: hidden;
+    width: 75px;
+    margin: 0px 25px;
 }
 .tool-icon:hover{
     transform: scale(1.1);
 }
+.icons{
+    display: flex;
+}
+
+.modal{
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 570px;
+    height: 295px;
+    background: linear-gradient(to right, #578bad, #166ba3);
+    border: 3px solid darkgreen;
+    border-radius: 15px;
+    
+}
+.text-contents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 55px 25px;
+}
+.modal p{
+    text-align: center;
+}
+
+
+
+
 
 .projects-space {
     display: flex;
@@ -126,16 +158,16 @@ p{
 
 .p-one{
     background-image: url(photos/cat.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 .p-two{
     background-image: url(photos/mars.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 .p-three{
     background-image: url(photos/obi.jpg);
+}
+.p-one, .p-two, .p-three{
+    color: white;
+    font-weight: bold;
     background-size: cover;
     background-repeat: no-repeat;
 }
