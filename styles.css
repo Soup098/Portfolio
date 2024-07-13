@@ -129,11 +129,6 @@ p{
 .modal p{
     text-align: center;
 }
-
-
-
-
-
 .projects-space {
     display: flex;
     flex-direction: column;
@@ -170,4 +165,17 @@ p{
     font-weight: bold;
     background-size: cover;
     background-repeat: no-repeat;
+}
+.bacon-container{
+    border: 1px solid black;
+    display: grid;
+    grid: repeat(2, 1fr) / repeat(4, 1fr);
+
+}
+.bacon{
+    border: 1px solid black;
+    grid-column: 3/4;
+    grid-row: 1/3;
+    height: 325px;
+    background-color: green;
 }
