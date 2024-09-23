@@ -30,6 +30,10 @@ main{
 }
 .name{
     font-size: 5rem;
+    margin-bottom: 0;
+}
+.titles{
+    margin-bottom: 80px;
 }
 .link-container{
     width: 85vw;
@@ -41,7 +45,7 @@ button{
     border: 1px solid black;
     box-shadow: 0 0 4px black;
     font-size: 2.25rem;
-    border-radius: 100%;
+    border-radius: 10%;
     width: 13rem;
     height: 13rem;
     background-color: #778da9;
@@ -57,6 +61,7 @@ button{
 .skill{
     background-color: #778da9;
     border: 1px solid black;
+    border-radius:10%;
     display: flex;
     flex-direction: column;
     justify-content: center;
