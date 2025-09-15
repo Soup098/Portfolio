@@ -13,7 +13,6 @@ main{
 
 /* HEADER StYLES */
 header{
-    /* border: 1px solid red; */
     display: flex;
     justify-content: space-between;
     /* height: 120px; */
@@ -38,7 +37,7 @@ header{
 }
 .name-intro{
     font-size: 7.5rem;
-    margin: 260px 0 0 0;
+    margin: 140px 0 0 0;
 }
 .bio-text{
     font-size: 5.5rem;
